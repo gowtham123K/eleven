@@ -32,7 +32,7 @@ pipeline {
             steps {
                 bat '''
                     call venv\\Scripts\\activate
-                     Greeting.py
+                     hi.py
                 '''
             }
         }
